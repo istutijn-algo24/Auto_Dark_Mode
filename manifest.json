@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Dark Mode",
+    "version": "1.0",
+    "description": "Forces dark mode on websites for consistent browsing experience.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
